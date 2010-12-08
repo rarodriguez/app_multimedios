@@ -25,4 +25,10 @@ html,body {margin:0;padding:0;}
 .leftFloat {float:left;}
 .rightFloat {float:right;}
 .clear {clear:both;}
+.leftMenu {width:20%;}
+.mainText {width:auto;}
+
+.welcome_plantas {width:950px;margin:0 auto;background:url(../images/leaf_background.png);background-position:top center;background-repeat:no-repeat;}
+.welcome_plantas .main_banner{height: 100px;}
+
 
