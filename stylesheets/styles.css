@@ -17,7 +17,7 @@ html,body {margin:0;padding:0;}
 .welcome {width:950px;margin:0 auto;background:url(../images/main_banner.png);background-position:top center;background-repeat:no-repeat;}
 .welcome .main_banner{height: 140px;}
 .welcome a:visited{color:#000000;}
-.welcome a.buttonStyle {display:block;-moz-border-radius: 15px;border-radius: 15px;-moz-box-shadow: 10px 10px 5px #888;-webkit-box-shadow: 10px 10px 5px #888;box-shadow: 10px 10px 5px #888;border:3px solid #cccccc;width:425px;padding-top:385px;height:40px;margin-right:20px;text-decoration:none;text-align:center;font-size:24px;color:#000000;}
+.welcome a.buttonStyle {display:block;-moz-border-radius: 15px;border-radius: 15px;-moz-box-shadow: 10px 10px 5px #888;-webkit-box-shadow: 10px 10px 5px #888;box-shadow: 10px 10px 5px #888;border:3px solid #cccccc;width:425px;padding-top:385px;height:40px;margin-left:20px;margin-right:20px;text-decoration:none;text-align:center;font-size:24px;color:#000000;}
 .welcome a.plant{background:url(../images/leafNormal.png);background-position:center center;background-repeat:no-repeat;margin-left:25px;font-family: 'HybridHibiscusRegular';color:#000000;text-decoration:none;}
 .welcome a.plant:hover{background:url(../images/leaf.png);-moz-box-shadow: 0px 0px 0px #fff;-webkit-box-shadow: 0px 0px 0px #fff;box-shadow: 0px 0px 0px #fff;background-position:center center;background-repeat:no-repeat;text-decoration:none;color:#516015;}
 .welcome a.animal{background:url(../images/footPrintsNormal.png);background-position:center center;background-repeat:no-repeat;text-decoration:none;font-family:"UncialAnimals";font-size:30px;}
