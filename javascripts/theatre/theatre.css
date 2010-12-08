@@ -48,11 +48,12 @@
 	cursor: pointer;
 	-moz-user-select: none;
 }
+
 .theatre-control:hover {
 	opacity: 0.8;
 }
-.theatre-control-horizontal-next {
-	cursor: e-resize;
+/*.theatre-control-horizontal-next {
+	cursor: pointer;
 }
 .theatre-control-horizontal-prev {
 	cursor: w-resize;
@@ -62,7 +63,7 @@
 }
 .theatre-control-vertical-prev {
 	cursor: s-resize;
-}
+}*/
 .theatre-control span {
 	background-image: url('theatre-controls.png');
 	background-repeat: no-repeat;
