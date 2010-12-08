@@ -19,7 +19,7 @@ $(document).ready(function() {
 		'transitionOut'	: 'none',
 		'titlePosition'	: 'inside',
 		'overlayColor'	: '#000',
-		'overlayOpacity': 0.7
+		'overlayOpacity': 0.5
 	});
 	
 }); 
@@ -27,31 +27,33 @@ $(document).ready(function() {
 </script>
 
 <style>
-#demo img {-moz-box-shadow:5px 2px 10px gray;box-shadow:5px 2px 10px gray;}
+#demo img {-moz-box-shadow:5px 2px 10px gray;box-shadow:5px 2px 10px gray;-webkit-box-shadow:5px 2px 10px gray;}
 body .animales {background-color:#F8EED8;}
-#contenidoAnimales{width:960px;background-color:#92794F;margin:0 auto;-moz-box-shadow:0 0 5px 5px #2D2209;box-shadow:0 0 5px 5px #2D2209;}
-#contenidoAnimales .encabezado {width:100%;height:125px;background-image:url(../images/animals_banner.jpg);}
+#contenidoAnimales{width:960px;background-color:#92794F;margin:0 auto;-webkit-box-shadow:0 0 5px 5px #2D2209;-moz-box-shadow:0 0 5px 5px #2D2209;box-shadow:0 0 5px 5px #2D2209;padding-bottom:10px;}
+#contenidoAnimales .encabezado {width:100%;height:125px;background-image:url(../images/animals_banner.jpg);font-weight:bold;font-size:24px;padding-top:60px;padding-left:10px;}
 </style>
 </head>
 <body class="animales">
 <div id="contenidoAnimales">
-	<div class="encabezado"></div>
+	<div class="encabezado">
+    	Los Animales
+    </div>
     <!-- fancybox -->
 <a rel="animal_pictures" class="picture" href="../images/footPrints.png" title="Some footprints"><img alt="" src="../images/footPrints.png" height="100" width="100" /></a>
 <a rel="animal_pictures" class="picture" href="../images/footPrintsNormal.png" title="Lorem ipsum dolor sit amet"><img alt="" src="../images/footPrintsNormal.png" height="100" width="100" /></a>
 <br/><br/><br/>
-  <div id="demo" style="height: 300px;margin: 30px auto;overflow: hidden; width: 640px;">
-	<a href="../images/leaf.png" title="Sample title!!!" ><img src="../images/leaf.png" height="100" width="100" /></a>
-	<a href="../images/leafNormal.png" title="TITLE FOR IMAGE 2!!!"><img src="../images/leafNormal.png" height="100" width="100" /></a>
+  <div id="carrusel" style="height: 300px;margin: 30px auto;overflow: hidden; width: 640px;">
+	<a href="../images/leaf.png" title="Titulo de ejemplo!" ><img src="../images/leaf.png" height="100" width="100" /></a>
+	<a href="../images/leafNormal.png" title="T&iacute;tulo de ejemplo 2!!!"><img src="../images/leafNormal.png" height="100" width="100" /></a>
   </div>
   <script type="text/javascript">
 	$(function() {
-	  $('#demo').theatre({
+	  $('#carrusel').theatre({
 		selector: 'img', // We want to resize/rotate images and not links
 		effect: '3d',
 		speed: 1000
 	  });
-	  $('#demo a').fancybox({
+	  $('#carrusel a').fancybox({
 		'opacity'		: true,
 		'overlayShow'	: true,
 		'transitionIn'	: 'elastic',
