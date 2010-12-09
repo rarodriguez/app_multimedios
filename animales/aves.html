@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Los animales</title>
+<title>Los animales - Aves</title>
 <script type="text/javascript" src="../javascripts/jquery-1.4.4.min.js"></script>
 <script type="text/javascript" src="../javascripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <link href="../stylesheets/styles.css" rel="stylesheet" media="all" />
@@ -25,7 +25,6 @@ $(document).ready(function() {
 	$("#menu_fotografias .opcion").click(function(){
 		var href = $(this).attr("href");
 		$('.contents').hide();
-		alert(href);
 		$(href).show();
 	});
 }); 
@@ -34,17 +33,19 @@ $(document).ready(function() {
 
 </head>
 <body class="animales">
-<div id="contenidoAnimales">
+<div id="contenidoAnimales" class="background_ave">
 	<div class="encabezado">
 	<img src="../images/animales_titulo.png" alt="animales"/>
     </div>
     <div class="menu leftFloat">
 		<ul>
 		  <li><a href="index.html">Caracter&iacute;sticas</a></li>
-		  <li><a href="#" class="selected">Mam&iacute;feros</a></li>
+		  <li><a href="aves.html">Mam&iacute;feros</a></li>
 		  <li><a href="mundo_marino.html">Mundo Marino</a></li>
 		  <li><a href="anfibios.html">Anfibios</a></li>
-		  <li><a href="aves.html">Aves</a></li>
+		  <li><a href="#" class="selected">Aves</a></li>
+		  <li><a href="reptiles.html">Reptiles</a></li>
+		  <li><a href="../index.html">Atr&aacute;s</a></li>
 		</ul>
 		<div class="footer"></div>
     </div>
@@ -56,79 +57,71 @@ $(document).ready(function() {
                 	<li>Las aves son animales vertebrados, de sangre caliente, que caminan, saltan o se mantienen s&oacute;lo sobre las extremidades posteriores, mientras que las extremidades anteriores est&aacute;n modificadas como alas. </li>
 					<li> Las alas poseen caracter&iacute;sticas anat&oacute;micas &uacute;nicas, que le permiten a las aves volar, aunque no todas vuelan. </li>
 					<li>Tienen el cuerpo recubierto de plumas y, las aves actuales, un pico corneo sin dientes. </li>
-		<li>Para reproducirse ponen huevos, que incuban hasta la eclosi&oacute;n.</li>
-
+					<li>Para reproducirse ponen huevos, que incuban hasta la eclosi&oacute;n.</li>
 				</ul>
             </div>
         </div>
         <br />
-        <object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/7KoNSTLfrKc?fs=1&amp;hl=es_ES"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/7KoNSTLfrKc?fs=1&amp;hl=es_ES" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+        <object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/YI5Sdzk8biE?fs=1&amp;hl=es_ES"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/YI5Sdzk8biE?fs=1&amp;hl=es_ES" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
         <br/>
         <br/>
         <h1>
         	Algunas aves
         </h1>
         <div id="menu_fotografias">
-        	<a href="#gorilas" class="opcion"><img src="../images/animales/mamiferos/gorila1.jpg" border=0 alt="Gorila" width="120" height="76"/></a>
-            <a href="#osos" class="opcion"><img src="../images/animales/mamiferos/osopolar1.jpg" border=0 alt="OsoPolar" width="120" height="76"/></a>
-            <a href="#koalas" class="opcion"><img src="../images/animales/mamiferos/koala1.jpg" border=0 alt="Koala" width="120" height="76"/></a>
-            <a href="#panteras" class="opcion"><img src="../images/animales/mamiferos/jaguar1.jpg" border=0 alt="Jaguar" width="120" height="76"/></a>
-            <a href="#canguros" class="opcion"><img src="../images/animales/mamiferos/kanguro1.jpg" border=0 alt="Kanguro" width="120" height="76"/></a>
+        	<a href="#quetzales" class="opcion"><img src="../images/animales/aves/quetzal1.jpg" border=0 alt="Quetzal" width="120" height="76"/></a>
+            <a href="#pinguinos" class="opcion"><img src="../images/animales/aves/pinguino1.jpg" border=0 alt="Pinguino" width="120" height="76"/></a>
+            <a href="#pavoreales" class="opcion"><img src="../images/animales/aves/pavoreal1.jpg" border=0 alt="PavoReal" width="120" height="76"/></a>
+            <a href="#lechuzas" class="opcion"><img src="../images/animales/aves/lechuza2.jpg" border=0 alt="Lechuza" width="120" height="76"/></a>
         </div>
-        <div id="koalas" class="contents" style="display:none;">
-        	<h2>Pingüinos</h2>
+        <div id="pinguinos" class="contents" style="display:none;">
+        	<h2>Pinginos</h2>
             <div class="burbujaGrande">
-	            Los pingüinos son aves marinas. No son “p&aacute;jaros”, pero definitivamente son aves ya que tienen plumas, aunque no puede volar. Algunas especies de pingüinos se mantienen la mayor parte del tiempo nadando en los oc&eacute;anos lejos de tierra; lo cual nos crea cierta dificultad para verlos. Afortunadamente durante la temporada de cr&iacute;a vienen a tierra para anidar y criar sus pichones. Terminada la anidación regresan al mar y poco despu&eacute;s vuelven a regresar a tierra, o a alg&uacute;n t&eacute;mpano de hielo flotante, por un par de semanas para mudar sus plumas. Es durante estos descansos fuera del agua cuando mejor los podemos observar.<br />
-                El pico lo tienen largo; en algunas especies es bien puntiagudo. Como se alimentan de peces, calamares, crust&aacute;ceos, krill (los camaroncitos ant&aacute;rticos) y otros animalitos marinos, esta forma del pico les facilita atrapar la presa. También les sirve de defensa.<br />
-                           </div><br/>
-	        <img src="../images/animales/mamiferos/koala1.jpg" alt="Koala" width="300" height="190"/>&nbsp;&nbsp;&nbsp;<img src="../images/animales/mamiferos/koala2.jpg" alt="Koala" width="300" height="190"/>
+	            Los pinginos son aves marinas. No son p&aacute;jaros, pero definitivamente son aves ya que tienen plumas, aunque no puede volar. <br /><br />Algunas especies de pinginos se mantienen la mayor parte del tiempo nadando en los oc&eacute;anos lejos de tierra; lo cual nos crea cierta dificultad para verlos. Afortunadamente durante la temporada de cr&iacute;a vienen a tierra para anidar y criar sus pichones. <br /><br />Terminada la anidaci&oacute;n regresan al mar y poco despu&eacute;s vuelven a regresar a tierra, o a alg&uacute;n t&eacute;mpano de hielo flotante, por un par de semanas para mudar sus plumas. Es durante estos descansos fuera del agua cuando mejor los podemos observar.<br /><br />
+                El pico lo tienen largo; en algunas especies es bien puntiagudo. Como se alimentan de peces, calamares, crust&aacute;ceos, krill (los camaroncitos ant&aacute;rticos) y otros animalitos marinos, esta forma del pico les facilita atrapar la presa. Tambin les sirve de defensa.<br />
+            </div><br/>
+			<object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/cAMPI0Jvl-0?fs=1&amp;hl=es_ES"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/cAMPI0Jvl-0?fs=1&amp;hl=es_ES" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
         </div>
-        <div id="osos" class="contents" style="display:none;">
+        <div id="lechuzas" class="contents" style="display:none;">
         	<h2>Las Lechuzas</h2>
             <div class="burbujaGrande">
-           Las lechuzas viven en Am&eacute;rica, Europa, &Aacute;frica, sur de Asia, Indonesia y Australia. La lechuza anida en huecos de &aacute;rboles, graneros, campanarios y edificios abandonados.<br /><br />
-			Tienen la cara en forma de coraz&oacute;n,  los ojos son peque&ntilde;os y oscuros, pero nunca amarillos como los de los b&uacute;hos. La mayor&aacute;ia tienen el dorso y la parte superior de la cabeza de color casta&ntilde;o jaspeado, el pecho y el vientre tienen un tono p&aacute;lido, aunque ligeramente moteado..<br /><br />
-		Cazan durante la noche, y su alimento consiste sobre todo en mam&iacute;feros peque&ntilde;os, como ratones y campa&ntilde;oles.
+			Las lechuzas viven en Am&eacute;rica, Europa, &Aacute;frica, sur de Asia, Indonesia y Australia. La lechuza anida en huecos de &aacute;rboles, graneros, campanarios y edificios abandonados.<br /><br />
+			Tienen la cara en forma de coraz&oacute;n, los ojos son peque&ntilde;os y oscuros, pero nunca amarillos como los de los b&uacute;hos. La mayor&aacute;ia tienen el dorso y la parte superior de la cabeza de color casta&ntilde;o jaspeado, el pecho y el vientre tienen un tono p&aacute;lido, aunque ligeramente moteado..<br /><br />
+			Cazan durante la noche, y su alimento consiste sobre todo en mam&iacute;feros peque&ntilde;os, como ratones y campa&ntilde;oles.
             </div><br />
-            <object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/VQpfabeEA9g?fs=1&amp;hl=es_ES"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/VQpfabeEA9g?fs=1&amp;hl=es_ES" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
-        </div>
-        <div class="contents" id="gorilas">
-        <h2>Tucanes</h2>
-        <div class="burbujaGrande">
-        	Los tucanes son aves de pelo y pico de colores muy llamativos por su brillantez y colorido. Su pico es largo, macizo con dientecillos como sierra llega a medir la tercera parte de su tama&ntilde;o y es muy ligero por las numerosas c&aacute;maras que tiene por lo que no le dificulta el vuelo. Su lengua es muy larga, angosta, aplanada y termina en punta. Tiene alas peque&ntilde;as, cortas y redondeadas.<br/><br/>
-			Utiliza el pico como arma y para tomar los frutos que se encuentran en las puntas de las ramas muy delgadas. Se ha descubierto recientemente que su pico es utilizado para regular la temperatura corporal, regulando el flujo sangu&iacute;neo de los numerosos vasos del pico.<br/>
-			   </div><br />
-        <img src="../images/animales/mamiferos/gorila1.jpg" alt="Gorila" width="300" height="190"/>&nbsp;&nbsp;&nbsp;<img src="../images/animales/mamiferos/gorila2.jpg" alt="Gorila" style="width:300px;height:190px;"/>
+            <img src="../images/animales/aves/lechuza3.jpg" alt="Koala" width="300" height="190"/>&nbsp;&nbsp;&nbsp;<img src="../images/animales/aves/lechuza1.jpg" alt="Koala" width="300" height="190"/>
         </div>
         
-        <div class="contents" id="panteras" style="display:none;">
+        <div class="contents" id="quetzales">
 	        <h2>Los Quetzales</h2>
             <div class="burbujaGrande">
                 Los Quetzales viven en los &aacute;rboles y se alimentan de frutas. No son f&eacute;ciles de ver ya que por lo general habitan en las selvas, lejos de las poblaciones. Tienen fuertes alas siendo capaces de ejercer un vuelo eficaz.<br/><br/>
                 Se les distinguen por el variado y brillante colorido de sus plumajes. Son tan atractivas que por lo menos dos de ellas han sido seleccionadas aves nacionales.<br/><br/>
                            </div><br />
-            <img src="../images/animales/mamiferos/jaguar1.jpg" alt="Gorila" width="300" height="190"/>&nbsp;&nbsp;&nbsp;<img src="../images/animales/mamiferos/jaguar2.jpg" alt="Gorila" style="width:300px;height:190px;"/>
+            <img src="../images/animales/aves/quetzal2.jpg" alt="Quetzal" width="300" height="190"/>&nbsp;&nbsp;&nbsp;<img src="../images/animales/aves/quetzal3.jpg" alt="Quetzal" style="width:300px;height:190px;"/>
         </div>
-        <div class="contents" id="canguros" style="display:none;">
+        <div class="contents" id="pavoreales" style="display:none;">
 	        <h2>Pavo Real</h2>
             <div class="burbujaGrande">                
-		El pavo real es una especie con un fuerte dimorfismo sexual. Vive aproximadamente 15 años, aunque se conocen casos de espec&iacute;menes que vivieron en cautiverio más de 20 años.<br/>                	El macho est&aacute; rovisto de un pico fuerte, su cabeza est&aacute; cubierta de un plumaje azul brillante y coronada por un copete de plumas. Su plumaje es de color azul iridiscente con reflejos verdosos es usado por el macho para defender su territorio y tambi&eacute;n como conseguir atraer a la hembra para el apareo.<br/> 
-			Mientras que las hembra se distinguen porque su plumaje es ceniciento, blanco en el cuello y con reflejos verdes en el pecho. El penacho es pequeño, de color caf&eacute;.<br/>
-                           </div>
-            <div id="carrusel_canguro" style="height: 250px;margin: 30px auto;overflow: hidden; width: 500px;">
-				<a class="carrusel_item" href="../images/animales/mamiferos/kanguro1.jpg" ><img src="../images/animales/mamiferos/kanguro1.jpg" height="100" width="100" /></a>
-				<a class="carrusel_item" href="../images/animales/mamiferos/kanguro2.jpg" ><img src="../images/animales/mamiferos/kanguro2.jpg" height="100" width="100" /></a>
-			   	<a class="carrusel_item" href="../images/animales/mamiferos/kanguro3.jpg" ><img src="../images/animales/mamiferos/kanguro3.jpg" height="100" width="100" /></a>
+				El pavo real es una especie con un fuerte dimorfismo sexual. Vive aproximadamente 15 aos, aunque se conocen casos de espec&iacute;menes que vivieron en cautiverio m&aacute;s de 20 a&ntilde;os.<br/>/>El macho est&aacute; provisto de un pico fuerte, su cabeza est&aacute; cubierta de un plumaje azul brillante y coronada por un copete de plumas. Su plumaje es de color azul iridiscente con reflejos verdosos es usado por el macho para defender su territorio y tambi&eacute;n como conseguir atraer a la hembra para el apareo.<br/> 
+				Mientras que las hembra se distinguen porque su plumaje es ceniciento, blanco en el cuello y con reflejos verdes en el pecho. El penacho es pequeo, de color caf&eacute;.<br/>
+            </div>
+            <div id="carrusel_pavoreal" style="height: 250px;margin: 30px auto;overflow: hidden; width: 500px;">
+				<a class="carrusel_item" href="../images/animales/aves/pavoreal1.jpg" ><img src="../images/animales/aves/pavoreal1.jpg" height="100" width="100" rel="pavoreal"/></a>
+				<a class="carrusel_item" href="../images/animales/aves/pavoreal2.jpg" ><img src="../images/animales/aves/pavoreal2.jpg" height="100" width="100" rel="pavoreal"/></a>
+			   	<a class="carrusel_item" href="../images/animales/aves/pavoreal3.jpg" ><img src="../images/animales/aves/pavoreal3.jpg" height="100" width="100" rel="pavoreal"/></a>
+				<a class="carrusel_item" href="../images/animales/aves/pavoreal4.jpg" ><img src="../images/animales/aves/pavoreal4.jpg" height="100" width="100" rel="pavoreal"/></a>
+			   	<a class="carrusel_item" href="../images/animales/aves/pavoreal4.jpg" ><img src="../images/animales/aves/pavoreal5.jpg" height="100" width="100" rel="pavoreal"/></a>
 		    </div>
 			  <script type="text/javascript">
 				$(function() {
-				  $('#carrusel_canguro').theatre({
+				  $('#carrusel_pavoreal').theatre({
 					selector: 'img', // We want to resize/rotate images and not links
 					/*effect: 'orbit',*/
 					effect: '3d',
 					speed: 2000
 				  });
-				  $('#carrusel_canguro a.carrusel_item').fancybox({
+				  $('#carrusel_pavoreal a.carrusel_item').fancybox({
 					'opacity'		: true,
 					'overlayShow'	: true,
 					'transitionIn'	: 'elastic',

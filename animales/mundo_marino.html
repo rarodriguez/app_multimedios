@@ -22,35 +22,87 @@ $(document).ready(function() {
 		'overlayColor'	: '#000',
 		'overlayOpacity': 0.5
 	});
-	
+	$("#menu_fotografias .opcion").click(function(){
+		var href = $(this).attr("href");
+		$('.contents').hide();
+		$(href).show();
+	});
 }); 
-
 </script>
 
 </head>
 <body class="marino">
-<div id="contenidoMarino">
+<div id="contenidoMarino" class="background_marino">
 	<div class="encabezado">
-	<img src="../images/animales_titulo.png" alt="animales"/>    </div>
-<div class="menu leftFloat">
+		<img src="../images/animales_titulo.png" alt="animales"/>
+	</div>
+	<div class="menu leftFloat">
 		<ul>
 		  <li><a href="index.html">Caracter&iacute;sticas</a></li>
 		  <li><a href="mamiferos.html">Mam&iacute;feros</a></li>
 		  <li><a href="#" class="selected">Mundo Marino</a></li>
 		  <li><a href="anfibios.html">Anfibios</a></li>
-		  <li><a href="insectos.html">Insectos</a></li>
+		  <li><a href="aves.html">Aves</a></li>
+		  <li><a href="reptiles.html">Reptiles</a></li>
+		  <li><a href="../index.html">Atr&aacute;s</a></li>
 		</ul>
 		<div class="footer"></div>
     </div>
-  <div class="contenido leftFloat">
-    <div class="burbujaConocimiento">
-            <div class="burbuja">
-               Nuestro planeta ha tenido la maravillosa dicha de poder sostener la vida. Con la gracia del tiempo seres vivientes, entre los cuales nos encontramos nosotros los seres humanos, han poblado gran parte del planeta. Estos seres se han adaptado para poder sobrevivir en las diferentes condiciones que el planeta provee, llegando a existir una casi innumerable variedad de ellos. La ciencia estudia estas diversas formas asociando y agrupando los seres de acuerdo a su evoluci�n de la siguiente manera.
-            </div>
-            <div class="flecha"></div>
-    </div>
-    </div>
-    <div class="clear"></div>
+    <div class="contenido leftFloat" style="padding-top:20px;">
+		<div class="burbujaConocimiento">
+			<div class="burbuja">
+				<span class="sabias">Sabías que...</span>
+				<ul>
+					<li>Los peces son animales vertebrados acuáticos, recubiertos en su mayoría por escamas y dotados de aletas, que permiten su desplazamiento en el medio acuático, y branquias, con las que captan el oxígeno disuelto en el agua.</li>
+					<li>Los peces son abundantes tanto en agua salada como en agua dulce, pudiéndose encontrar especies desde los arroyos de montaña (por ejemplo el gobio), así como en lo más profundo del océano (por ejemplo anguilas tragonas).</li>
+				</ul>
+			</div>
+		</div>
+		<br />
+		
+		<div id="carrusel_peces" style="height: 300px;margin: 30px auto;overflow: hidden; width: 600px;">
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/delfin1.jpg" rel="peces"><img src="../images/animales/mundoacuatico/delfin1.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/delfin2.jpg" rel="peces"><img src="../images/animales/mundoacuatico/delfin2.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/delfin3.jpg" rel="peces"><img src="../images/animales/mundoacuatico/delfin3.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/delfin4.jpg" rel="peces"><img src="../images/animales/mundoacuatico/delfin4.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/esponja1.jpg" rel="peces"><img src="../images/animales/mundoacuatico/esponja1.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/esponja2.jpg" rel="peces"><img src="../images/animales/mundoacuatico/esponja2.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/esponja3.jpg" rel="peces"><img src="../images/animales/mundoacuatico/esponja3.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/mantaraya1.jpg" rel="peces"><img src="../images/animales/mundoacuatico/mantaraya1.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/mantaraya2.jpg" rel="peces"><img src="../images/animales/mundoacuatico/mantaraya2.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/mantaraya3.jpg" rel="peces"><img src="../images/animales/mundoacuatico/mantaraya3.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/mantaraya4.jpg"rel="peces" ><img src="../images/animales/mundoacuatico/mantaraya4.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/peces1.jpg" rel="peces"><img src="../images/animales/mundoacuatico/peces1.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/peces2.jpg" rel="peces"><img src="../images/animales/mundoacuatico/peces2.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/peces3.jpg" rel="peces"><img src="../images/animales/mundoacuatico/peces3.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/peces4.jpg" rel="peces"><img src="../images/animales/mundoacuatico/peces4.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/pezpayaso1.jpg" rel="peces" ><img src="../images/animales/mundoacuatico/pezpayaso1.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/pezpayaso2.jpg" rel="peces"><img src="../images/animales/mundoacuatico/pezpayaso2.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/pezpayaso3.jpg" rel="peces" ><img src="../images/animales/mundoacuatico/pezpayaso3.jpg" border='0' height="100" width="100" /></a>
+			<a class="carrusel_item" href="../images/animales/mundoacuatico/pezpayaso4.jpg" rel="peces"><img src="../images/animales/mundoacuatico/pezpayaso4.jpg" border='0' height="100" width="100" /></a>
+		</div>
+		  <script type="text/javascript">
+			$(function() {
+			  $('#carrusel_peces').theatre({
+				selector: 'img', // We want to resize/rotate images and not links
+				effect: 'orbit',
+				speed: 2000
+			  });
+			  $('#carrusel_peces a.carrusel_item').fancybox({
+				'opacity'		: true,
+				'overlayShow'	: true,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'none',
+				'titlePosition'	: 'inside',
+				'overlayColor'	: '#000',
+				'overlayOpacity': 0.5
+			  });
+			});
+		  </script>
+
+		
+	</div>
+	<div class="clear"></div>
 </div>
 
 </body>
