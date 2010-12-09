@@ -4,6 +4,8 @@ body.plantas {background-color:#9CB16E;}
 
 #contenidoPlantas{width:960px;background-color:#4D621F;margin:0 auto;-webkit-box-shadow:0 0 5px 5px #2F400A;-moz-box-shadow:0 0 5px 5px #2F400A;box-shadow:0 0 5px 5px #2F400A;padding-bottom:10px;background-image:url(../images/leaf_footprint_clear.png);background-repeat:no-repeat;background-position: bottom right;}
 #contenidoPlantas .encabezado {background-image: url("../images/leaf_background.png");color: #99B066;font-size: 32px; font-weight: bold;height: 65px;padding-left: 10px;padding-top: 60px;position: relative;width: 950px;z-index: 2;}
+#contenidoPlantas .encabezado sub {font-style: italic;}
+#contenidoPlantas .encabezado a {color: #99B066;}
 #contenidoPlantas .menu_plantas .footer {background-color: #4D621F;background-image: url("../images/pie_menu_plantas.png");background-position: 0 -15px;height: 50px;}
 
 a {text-decoration:none;}
@@ -16,4 +18,5 @@ a:visited {text-decoration:none;}
 .menu_plantas ul li a {display:block;padding: 10px 0;color:#3E4A24;font-weight:bold;padding-left:10px;}
 .menu_plantas ul li a.selected {display:block;padding: 10px 0;color:#94B156;background-color:#3E4A24;font-weight:bold;padding-left:10px;}
 .menu_plantas ul li a:hover {color:#94B156;background-color:#3E4A24;}
-.contenido {width:745px;}
+.contenido {width:740px;color:#fff;}
+.contenido div.centrado { text-align:center;}
