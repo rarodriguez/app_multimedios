@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Los animales - Anfibios</title>
+<script type="text/javascript" src="../javascripts/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="../javascripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link href="../stylesheets/styles.css" rel="stylesheet" media="all" />
+<link rel="stylesheet" href="../javascripts/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+<!-- Theatre -->
+<link type="text/css" rel="stylesheet" href="../javascripts/theatre/theatre.css" />
+<script type="text/javascript" src="../javascripts/theatre/jquery.theatre-1.0.js"></script>
+<script type="text/javascript" src="../javascripts/theatre/effect.orbit.js"></script>
+<script>
+$(document).ready(function() {
+	$("a.picture").fancybox({
+		'opacity'		: true,
+		'overlayShow'	: true,
+		'transitionIn'	: 'elastic',
+		'transitionOut'	: 'none',
+		'titlePosition'	: 'inside',
+		'overlayColor'	: '#000',
+		'overlayOpacity': 0.5
+	});
+	$("#menu_fotografias .opcion").click(function(){
+		var href = $(this).attr("href");
+		$('.contents').hide();
+		$(href).show();
+	});
+}); 
+
+</script>
+
+</head>
+<body class="animales">
+<div id="contenidoAnimales">
+	<div class="encabezado">
+	<img src="../images/animales_titulo.png" alt="animales"/>
+    </div>
+    <div class="menu leftFloat">
+		<ul>
+		  <li><a href="index.html">Caracter&iacute;sticas</a></li>
+		  <li><a href="mamiferos.html">Mam&iacute;feros</a></li>
+		  <li><a href="mundo_marino.html">Mundo Marino</a></li>
+		  <li><a href="#" class="selected">Anfibios</a></li>
+		  <li><a href="aves.html">Aves</a></li>
+          <li><a href="reptiles.html">Reptiles</a></li>
+		</ul>
+		<div class="footer"></div>
+    </div>
+    <div class="contenido leftFloat">
+        <div class="burbujaConocimiento">
+            <div class="burbuja">
+            <span class="sabias">Sabías que...</span>
+            	<ul>
+                	<li>Los anfibios fueron los primeros animales vertebrados en adaptarse a una vida semiterrestre. </li>
+                    <li>Se estima que surgieron de los peces hace unos 360 millones de años. </li>
+                    <li>En diferencia a los otros vertebrados, los anfibios se distinguen por sufrir una transformación total durante su desarrollo.</li> 
+                    <li>Se estima que unas 4300 especies diferentes de anfibios viven hoy en día.</li>
+				</ul>
+            </div>
+        </div>
+        <br />
+        <object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/xZkTQMEzmgY?fs=1&amp;hl=es_ES"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/xZkTQMEzmgY?fs=1&amp;hl=es_ES" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+        <br/>
+        <br/>
+        <h1>
+        	Algunos Anfibios
+        </h1>
+        <div id="menu_fotografias">
+        	<a href="#ranas" class="opcion"><img src="../images/animales/anfibios/rana1.jpg" border=0 alt="Rana" width="120" height="76"/></a>
+            <a href="#cecilidos" class="opcion"><img src="../images/animales/anfibios/cecilido1.jpg" border=0 alt="Cecilido" width="120" height="76"/></a>
+            <a href="#sapos" class="opcion"><img src="../images/animales/anfibios/sapo1.jpg" border=0 alt="Sapo" width="120" height="76"/></a>
+            <a href="#salamandras" class="opcion"><img src="../images/animales/anfibios/salamandra1.jpg" border=0 alt="Salamandra" width="120" height="76"/></a>
+        </div>
+        <div id="ranas" class="contents">
+        	<h2>Rana</h2>
+            <div class="burbujaGrande">
+	            Las ranas son animales anfibios que se reparten por todos los lugares del mundo.  Los científicos calculan que pueden existir hasta 3.800 especies, contando los sapos y, según a la especie presentan una fisonomía muy diversa pudiendo ser de apenas 10 mm de longitud hasta los 30 cm y alcanzar los 3 kilos de peso.  Algunas son únicamente terrestres, otras acuáticas y otras alternan su medio. <br /><br />
+Existen numerosas ranas, hasta 200 especies, que son venenosas y proceden del continente americano.  Poseen colores muy llamativos y no suelen ser muy grandes.  Su piel contiene elementos tóxicos por ello se recomienda no tocarlas.<br /><br />Los bosques y selvas tropicales son los hábitats en los que desarrollan su vida y su actividad la realizan durante las horas diurnas.  
+Son animales insectívoros y excelentes saltadores.  La fecundación de la rana se produce fuera del agua, más tarde deposita los huevos que darán lugar al embrión y éste se convertirá en renacuajo.
+
+            </div><br/>
+            <div id="carrusel_ranas" style="height: 250px;margin: 30px auto;overflow: hidden; width: 500px;">
+				<a class="carrusel_item" href="../images/animales/anfibios/rana1.jpg" ><img src="../images/animales/anfibios/rana1.jpg" height="100" width="100" /></a>
+				<a class="carrusel_item" href="../images/animales/anfibios/rana2.jpg" ><img src="../images/animales/anfibios/rana2.jpg" height="100" width="100" /></a>
+			   	<a class="carrusel_item" href="../images/animales/anfibios/rana3.jpg" ><img src="../images/animales/anfibios/rana3.jpg" height="100" width="100" /></a>
+				<a class="carrusel_item" href="../images/animales/anfibios/rana4.jpg" ><img src="../images/animales/anfibios/rana4.jpg" height="100" width="100" /></a>
+   			   	<a class="carrusel_item" href="../images/animales/anfibios/rana5.jpg" ><img src="../images/animales/anfibios/rana5.jpg" height="100" width="100" /></a>
+                <a class="carrusel_item" href="../images/animales/anfibios/rana6.jpg" ><img src="../images/animales/anfibios/rana6.jpg" height="100" width="100" /></a>
+		    </div>
+			  <script type="text/javascript">
+				$(function() {
+				  $('#carrusel_ranas').theatre({
+					selector: 'img', // We want to resize/rotate images and not links
+					effect: 'orbit',
+					speed: 2000
+				  });
+				  $('#carrusel_ranas a.carrusel_item').fancybox({
+					'opacity'		: true,
+					'overlayShow'	: true,
+					'transitionIn'	: 'elastic',
+					'transitionOut'	: 'none',
+					'titlePosition'	: 'inside',
+					'overlayColor'	: '#000',
+					'overlayOpacity': 0.5
+				  });
+				});
+			  </script>
+        </div>
+        <div id="cecilidos" class="contents" style="display:none;">
+        	<h2>Cec&iacute;lidos</h2>
+            <div class="burbujaGrande">
+            Los cec&iacute;lidos son anfibios adaptados para vivir bajo tierra; tienen el cuerpo alargado, carecen de patas y sus ojos son pequeños y están cubiertos por piel. <br />
+            &Uacute;nicamente salen a la superficie cuando el suelo esta saturado de agua, esto es durante fuertes lluvias o luego de ellas. Se alimentan de invertebrados como lombrices y babosas. A diferencia de los anuros (ranas y sapos), los cec&iacute;lidos tienen una fertilizaci&oacute;n interna, para lo cual poseen un &oacute;rgano copulador llamado falodeum.
+
+            </div><br />
+			<img src="../images/animales/anfibios/cecilido1.jpg" alt="Gorila" width="300" height="190"/>&nbsp;&nbsp;&nbsp;<img src="../images/animales/anfibios/cecilido2.jpg" alt="Gorila" style="width:300px;height:190px;"/>
+        </div>
+        <div class="contents" id="sapos" style="display:none;">
+        <h2>Sapos</h2>
+        <div class="burbujaGrande">
+        	Los sapos son animales tímidos, por lo general nocturnos, que durante el día se ocultan en lugares oscuros y durante la noche se dedican a la caza de insectos, gusanos, babosas, lombrices y otros invertebrados. Son más torpes que las ranas y no pueden saltar tan lejos como ellas. <br/><br/>
+La lengua del sapo está fijada a la parte anterior de la boca. Lanzan ésta hacia adelante y su extremo pegajoso atrapa a la presa y la lleva de regreso a la boca. <br/>
+Durante los meses fríos los sapos hibernan enterrándose en madrigueras. En primavera se aparean y las hembras ponen sus numerosos huevos en estanques en forma de cadenas gelatinosas de hasta 1,2 m de longitud. Los renacuajos son más pequeños y oscuros que los de las ranas y no se transforman en sapos terrestres hasta el siguiente otoño. 
+
+        </div><br />
+        <img src="../images/animales/anfibios/sapo1.jpg" alt="Sapo" width="300" height="190"/>&nbsp;&nbsp;&nbsp;<img src="../images/animales/anfibios/sapo2.jpg" alt="Sapo" style="width:300px;height:190px;"/>
+        </div>
+        
+        <div class="contents" id="salamandras" style="display:none;">
+	        <h2>Salamandras</h2>
+            <div class="burbujaGrande">
+                La salamandra común es un anfibio común en Europa, con preferencia por hábitats acuáticos de media y alta montaña, ecológicamente poco alterados. <br />
+				Normalmente sale de su escondrijo cuando el tiempo es frío y húmedo. Se le puede ver pasear con mucha tranquilidad en los caminos, a veces se esconde debajo de las piedras. Su longitud rara vez sobrepasa los 20 cm. Las salamandras muestran una asombrosa capacidad para regenerar miembros amputados. <br /><br />
+				Es muy fácil reconocerlas por el color de su piel, que es negra con manchas amarillas, la cual es utilizada como una señal de advertencia para evitar ser atacada por otros animales. Su piel contiene pequeñas cantidades de sustancias tóxicas que excreta por dos orificios situados en su espalda.
+            </div><br />
+            <object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/6p8b2YHT2PU?fs=1&amp;hl=es_ES"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/6p8b2YHT2PU?fs=1&amp;hl=es_ES" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+</body>
+</html>

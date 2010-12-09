@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Los animales - Reptiles</title>
+<script type="text/javascript" src="../javascripts/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="../javascripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link href="../stylesheets/styles.css" rel="stylesheet" media="all" />
+<link rel="stylesheet" href="../javascripts/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+<!-- Theatre -->
+<link type="text/css" rel="stylesheet" href="../javascripts/theatre/theatre.css" />
+<script type="text/javascript" src="../javascripts/theatre/jquery.theatre-1.0.js"></script>
+<script type="text/javascript" src="../javascripts/theatre/effect.orbit.js"></script>
+<script>
+$(document).ready(function() {
+	$("a.picture").fancybox({
+		'opacity'		: true,
+		'overlayShow'	: true,
+		'transitionIn'	: 'elastic',
+		'transitionOut'	: 'none',
+		'titlePosition'	: 'inside',
+		'overlayColor'	: '#000',
+		'overlayOpacity': 0.5
+	});
+	$("#menu_fotografias .opcion").click(function(){
+		var href = $(this).attr("href");
+		$('.contents').hide();
+		$(href).show();
+	});
+}); 
+
+</script>
+
+</head>
+<body class="animales">
+<div id="contenidoAnimales">
+	<div class="encabezado">
+	<img src="../images/animales_titulo.png" alt="animales"/>
+    </div>
+    <div class="menu leftFloat">
+		<ul>
+		  <li><a href="index.html">Caracter&iacute;sticas</a></li>
+		  <li><a href="mamiferos.html">Mam&iacute;feros</a></li>
+		  <li><a href="mundo_marino.html">Mundo Marino</a></li>
+		  <li><a href="anfibios.html">Anfibios</a></li>
+		  <li><a href="aves.html">Aves</a></li>
+          <li><a href="#" class="selected">Reptiles</a></li>
+		</ul>
+		<div class="footer"></div>
+    </div>
+    <div class="contenido leftFloat">
+        <div class="burbujaConocimiento">
+            <div class="burbuja">
+            <span class="sabias">Sabías que...</span>
+            	<ul>
+                    <li>Los reptiles son animales vertebrados y se estima que hace unos 310 millones de años descendieron de los anfibios, pero no de los anfibios modernos de hoy en día sino otros anfibios que vivían en la tierra en aquellos tiempos.</li>
+                    <li>Todos los reptiles tienen su cuerpo cubierto de escamas</li>
+                    <li>Las siete mil especies de reptiles que viven hoy en día se clasifican en cuatro grupos b&aacute;sicos: Cocodrilos, Lagartos y Serpientes, Tortugas y Tu&aacute;taras</li>
+				</ul>
+            </div>
+        </div>
+        <br />
+        <object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/MOoIIXcBolg?fs=1&amp;hl=es_ES"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/MOoIIXcBolg?fs=1&amp;hl=es_ES" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+        <br/>
+        <br/>
+        <h1>
+        	Algunos Reptiles
+        </h1>
+        <div id="menu_fotografias">
+        	<a href="#cocodrilos" class="opcion"><img src="../images/animales/reptiles/cocodrilo1.jpg" border=0 alt="cocodrilo" width="120" height="76"/></a>
+            <a href="#serpientes" class="opcion"><img src="../images/animales/reptiles/serpiente1.jpg" border=0 alt="serpiente" width="120" height="76"/></a>
+            <a href="#tortugas" class="opcion"><img src="../images/animales/reptiles/tortugas2.jpg" border=0 alt="Tortuga" width="120" height="76"/></a>
+        </div>
+        <div id="cocodrilos" class="contents">
+        	<h2>Rana</h2>
+            <div class="burbujaGrande">
+	            Los cocodrilos y sus parientes son reptiles de cuatro patas, muy similares a los lagartos. Se distinguen por su usual gran tamaño. En la espalda, desde el cuello hasta la cola, tienen hileras de placas óseas, que pueden dar la impresión de espinas o dientes. Quizás los conocemos mejor por su ferocidad, y en los casos de las especies mayores, por ser peligrosos al máximo. <br /><br />
+				Estos reptiles se mantienen gran parte del tiempo en el agua. Debido a su anatomía son capaces de abrir la boca y tragar debajo del agua sin ahogarse. Por lo general los caimanes, aligatores y gaviales son de agua dulce, mientras que los cocodrilos habitan en agua dulce y salada. Los caimanes y aligatores son agresivos, pero los cocodrilos podríamos decir que son súper agresivos. Mientras que los gaviales son inofensivos.<br /><br />
+				La reproducción de los cocodrilos es por huevos. Las madres hacen un nido que puede ser un hueco en la arena o una pequeña montaña de tierra y hojas secas, hierba y otras partes de la vegetación. 
+            </div><br/>
+            <div id="carrusel_cocodrilos" style="height: 250px;margin: 30px auto;overflow: hidden; width: 500px;">
+				<a class="carrusel_item" href="../images/animales/reptiles/cocodrilo1.jpg" ><img src="../images/animales/reptiles/cocodrilo1.jpg" height="100" width="100" /></a>
+				<a class="carrusel_item" href="../images/animales/reptiles/cocodrilo2.jpg" ><img src="../images/animales/reptiles/cocodrilo2.jpg" height="100" width="100" /></a>
+			   	<a class="carrusel_item" href="../images/animales/reptiles/cocodrilo3.jpg" ><img src="../images/animales/reptiles/cocodrilo3.jpg" height="100" width="100" /></a>
+				<a class="carrusel_item" href="../images/animales/reptiles/cocodrilo4.jpg" ><img src="../images/animales/reptiles/cocodrilo4.jpg" height="100" width="100" /></a>
+		    </div>
+			  <script type="text/javascript">
+				$(function() {
+				  $('#carrusel_cocodrilos').theatre({
+					selector: 'img', // We want to resize/rotate images and not links
+					effect: '3d',
+					speed: 2000
+				  });
+				  $('#carrusel_cocodrilos a.carrusel_item').fancybox({
+					'opacity'		: true,
+					'overlayShow'	: true,
+					'transitionIn'	: 'elastic',
+					'transitionOut'	: 'none',
+					'titlePosition'	: 'inside',
+					'overlayColor'	: '#000',
+					'overlayOpacity': 0.5
+				  });
+				});
+			  </script>
+        </div>
+        <div id="serpientes" class="contents" style="display:none;">
+        	<h2>Serpientes</h2>
+            <div class="burbujaGrande">
+                Las serpientes se caracterizan por la ausencia de extremidades y cuerpo alargado. Algunas poseen mordeduras venenosas que utilizan para matar a sus presas antes de ingerirlas. Otras serpientes matan a sus presas por constricción, por ejemplo estrangulación. Los ofidios cuya mordedura es tóxica o venenosa suelen ser llamados propiamente víboras o serpientes, mientras los ofidios cuya mordedura no es venenosa suelen ser llamados culebras.<br /><br />
+                Se reconocen 456 géneros y más de 2.900 especies. La mayoría de las serpientes se reproducen poniendo huevos, pero algunas especies han desarrollado un método diferente. El cuerpo de la madre retiene los huevos hasta que las crías están totalmente formadas para vivir de una manera independiente. En algunos casos el grupo entero alumbra crías totalmente formadas, mientras que otros grupos pueden estar formados por miembros que alumbran crías formadas, como por miembros que ponen huevos.
+            </div><br />
+			<div id="carrusel_serpientes" style="height: 250px;margin: 30px auto;overflow: hidden; width: 500px;">
+				<a class="carrusel_item" href="../images/animales/reptiles/serpiente1.jpg" ><img src="../images/animales/reptiles/serpiente1.jpg" height="100" width="100" /></a>
+				<a class="carrusel_item" href="../images/animales/reptiles/serpiente2.jpg" ><img src="../images/animales/reptiles/serpiente2.jpg" height="100" width="100" /></a>
+			   	<a class="carrusel_item" href="../images/animales/reptiles/serpiente3.jpg" ><img src="../images/animales/reptiles/serpiente3.jpg" height="100" width="100" /></a>
+				<a class="carrusel_item" href="../images/animales/reptiles/serpiente4.jpg" ><img src="../images/animales/reptiles/serpiente4.jpg" height="100" width="100" /></a>
+		    </div>
+			  <script type="text/javascript">
+				$(function() {
+				  $('#carrusel_serpientes').theatre({
+					selector: 'img', // We want to resize/rotate images and not links
+					effect: 'orbit',
+					speed: 3000
+				  });
+				  $('#carrusel_serpientes a.carrusel_item').fancybox({
+					'opacity'		: true,
+					'overlayShow'	: true,
+					'transitionIn'	: 'elastic',
+					'transitionOut'	: 'none',
+					'titlePosition'	: 'inside',
+					'overlayColor'	: '#000',
+					'overlayOpacity': 0.5
+				  });
+				});
+			  </script>
+        </div>
+        <div class="contents" id="tortugas" style="display:none;">
+        <h2>Tortugas</h2>
+        <div class="burbujaGrande">
+        	La caracter&iacute;stica m&aacute;s importante del esqueleto de las tortugas es que una gran parte de su columna vertebral est&aacute; soldada a la parte dorsal del caparaz&oacute;n. <br />
+			El metabolismo de las tortugas es muy lento y, las especies acu&aacute;ticas, pueden permanecer sin respirar durante mucho tiempo. En climas templados todas las especies hibernan regularmente.<br />
+			La reproducción es ov&iacute;para y la incubación se realiza en nidos que ellas mismas excavan en la tierra, en donde el calor necesario es aportado por irradiaci&oacute;n solar. Un caso especial es la especie Manouria emys, que construye un nido de aproximadamente 50 cm de altura a base de tierra y hojas.
+        </div><br />
+        <img src="../images/animales/reptiles/tortugas2.jpg" alt="Tortuga" width="300" height="190"/>&nbsp;&nbsp;&nbsp;<img src="../images/animales/reptiles/tortugas3.jpg" alt="Tortuga" style="width:300px;height:190px;"/>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+</body>
+</html>
