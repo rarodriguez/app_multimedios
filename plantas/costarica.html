@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Las Plantas</title>
+<script type="text/javascript" src="../javascripts/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="../javascripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link href="../stylesheets/styles.css" rel="stylesheet" media="all" />
+<link href="../stylesheets/styles_plantas.css" rel="stylesheet" media="all" />
+<link rel="stylesheet" href="../javascripts/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+<!-- Theatre -->
+<link type="text/css" rel="stylesheet" href="../javascripts/theatre/theatre.css" />
+<script type="text/javascript" src="../javascripts/theatre/jquery.theatre-1.0.js"></script>
+<script type="text/javascript" src="../javascripts/theatre/effect.orbit.js"></script>
+<script>
+$(document).ready(function() {
+  $("a.picture").fancybox({
+    'opacity'   : true,
+    'overlayShow' : true,
+    'transitionIn'  : 'elastic',
+    'transitionOut' : 'none',
+    'titlePosition' : 'inside',
+    'overlayColor'  : '#000',
+    'overlayOpacity': 0.5
+  });
+  
+}); 
+
+</script>
+
+</head>
+<body class="plantas">
+<div id="contenidoPlantas">
+  <div class="encabezado">
+      <a href="index.html">Las Plantas</a> <sub>Costa Rica</sub>
+    </div>
+    <div class="menu_plantas leftFloat">
+    <ul>
+      <li><a href="raiz.html">Ra&iacute;ces</a></li>
+      <li><a href="tallo.html">Tallo</a></li>
+      <li><a href="hoja.html">Hojas</a></li>
+      <li><a href="flor.html">Flores</a></li>
+      <li><a href="fotosintesis.html">Fotos&iacute;ntesis</a></li>
+      <li><a href="#" class="selected">Plantas de Costa Rica</a></li>
+      <li><a href="../index.html">&lt;&lt; Atr&aacute;s</a></li>
+    </ul>
+    <div class="footer"></div>
+    </div>
+    <div class="contenido leftFloat">
+			<div class="burbujaConocimiento">
+				<div class="burbuja" style="margin-top: 10px;">
+					<span class="sabias">Sabías que...</span>
+					<ul>
+						<li>En Costa Rica hay, aproximadamente, 9.000 tipos diferentes de plantas con flor</li>
+						<li>Y nuestro país "vende" oxigeno al mundo por medio de sus áreas de conservación</li>
+						<li>Además, Costa Rica es territorio de paso para multiples animales que ayudan a la polinización y diseminación de las semillas por toda la región</li>
+						<li>Además, Costa Rica es territorio de paso para múltiples animales que ayudan a la polinización y diseminación de las semillas por toda la región</li>
+					</ul></div>
+			</div>
+      <div id="carrusel_cr" style="height: 250px;margin: 30px auto;overflow: hidden; width: 500px;">
+				<a class="carrusel_item" href="../images/animales/anfibios/rana1.jpg" ><img src="../images/animales/anfibios/rana1.jpg" height="100" width="100" /></a>
+				<a class="carrusel_item" href="../images/animales/anfibios/rana2.jpg" ><img src="../images/animales/anfibios/rana2.jpg" height="100" width="100" /></a>
+			   	<a class="carrusel_item" href="../images/animales/anfibios/rana3.jpg" ><img src="../images/animales/anfibios/rana3.jpg" height="100" width="100" /></a>
+				<a class="carrusel_item" href="../images/animales/anfibios/rana4.jpg" ><img src="../images/animales/anfibios/rana4.jpg" height="100" width="100" /></a>
+   			   	<a class="carrusel_item" href="../images/animales/anfibios/rana5.jpg" ><img src="../images/animales/anfibios/rana5.jpg" height="100" width="100" /></a>
+                <a class="carrusel_item" href="../images/animales/anfibios/rana6.jpg" ><img src="../images/animales/anfibios/rana6.jpg" height="100" width="100" /></a>
+		    </div>
+			  <script type="text/javascript">
+				$(function() {
+				  $('#carrusel_cr').theatre({
+					selector: 'img', // We want to resize/rotate images and not links
+					effect: 'orbit',
+					speed: 2000
+				  });
+				  $('#carrusel_cr a.carrusel_item').fancybox({
+					'opacity'		: true,
+					'overlayShow'	: true,
+					'transitionIn'	: 'elastic',
+					'transitionOut'	: 'none',
+					'titlePosition'	: 'inside',
+					'overlayColor'	: '#000',
+					'overlayOpacity': 0.5
+				  });
+				});
+			  </script>
+        
+    <div class="clear"></div>
+</div>
+
+</body>
+</html>
