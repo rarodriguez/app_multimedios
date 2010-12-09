@@ -39,7 +39,7 @@ $(document).ready(function() {
       <li><a href="raiz.html">Ra&iacute;ces</a></li>
       <li><a href="tallo.html">Tallo</a></li>
       <li><a href="hoja.html">Hojas</a></li>
-      <li><a href="flor.html">Flores</a></li>
+      <li><a href="#" class="selected">Flores</a></li>
       <li><a href="fotosintesis.html">Fotos&iacute;ntesis</a></li>
       <li><a href="costarica.html">Plantas de Costa Rica</a></li>
       <li><a href="../index.html">&lt;&lt; Atr&aacute;s</a></li>
@@ -47,9 +47,16 @@ $(document).ready(function() {
     <div class="footer"></div>
     </div>
     <div class="contenido leftFloat">
-      <div class="centrado"><img src="../images/plantas/tallo_3.jpg" width="350" height="420" /> </div>
-      <p>La flor es el órgano reproductivo de la mayor parte de las plantas, los pteridófitos o helechos
-         carecen de flores. El grupo de las espermatofitas, es decir, las plantas con semilla está representado
+			<div class="burbujaConocimiento" style="margin-bottom: 10px;">
+				<div class="burbuja">
+					<span class="sabias">Sabías que...</span>
+					<ul>
+						<li>La flor es el órgano reproductivo de la mayor parte de las plantas</li>
+						<li>Y que los pteridófitos o helechos carecen de flores</li>
+					</ul></div>
+			</div>
+      <div class="rightFloat" style="margin-top: 10px;"><img src="../images/plantas/floresmacro.png" width="446" height="297" /> </div>
+      <p>El grupo de las espermatofitas, es decir, las plantas con semilla está representado
          por gimnospermas y angiospermas, ambos grupos de plantas tienen flores pero en el caso de las 
          gimnospermas las flores son en realidad inflorescencias que no van a dar lugar a un fruto. Por el 
          contrario las angiospermas presentan flores típicas que tras la fecundación formarán semillas encerradas
@@ -65,28 +72,14 @@ $(document).ready(function() {
           del zigoto (diploide) que tras sucesivas divisiones mitóticas se convierte en embrión y posteriormente en la 
           semilla. Pero la flor también contribuye a la formación del fruto por modificación de las paredes del ovario, 
           donde se encuentran los zigotos. 
- 
-      <p>Una flor típica consta de varias partes. La parte que une la flor al tallo se denomina pedúnculo, las flores 
-        que carecen de él se denominan sésiles. Cuando el pedúnculo sostiene a un grupo de flores, como si fuera un 
-        ramo, a la estructura que une a cada flor con el pedúnculo se le denomina pedicelo. El pedúnculo o el pedicelo 
-        forman una estructura terminal denominada receptáculo desde donde parten las otras estructuras de la flor. La 
-        parte estéril de la flor tiene una función protectora formando en conjunto el periantio, es decir el conjunto de 
-        pétalos o corola y el conjunto de sépalos o cáliz. La parte reproductora está formada por los estambres, que 
-        constituyen la parte masculina de la flor o androceo, y el pistilo, que es la parte femenina o gineceo</p>
 
-
- 
-    </div>
-    <!-- fancybox -->
-<!--a rel="animal_pictures" class="picture" href="../images/footPrints.png" title="Some footprints"><img alt="" src="../images/footPrints.png" height="100" width="100" /></a>
-<a rel="animal_pictures" class="picture" href="../images/footPrintsNormal.png" title="Lorem ipsum dolor sit amet"><img alt="" src="../images/footPrintsNormal.png" height="100" width="100" /></a>
-<br/><br/><br/-->
+<!-- fancybox -->
   <div id="carrusel" style="height: 300px;margin: 30px auto;overflow: hidden; width: 640px;">
-  <a class="carrusel_item" href="../images/plantas/flor_1.gif" title="Partes de la flor 1" ><img src="../images/plantas/flor_1.gif" height="200" width="200" /></a>
-  <a class="carrusel_item" href="../images/plantas/flor_2.jpg" title="Partes de la flor 2"><img src="..../images/plantas/flor_2.jpg" height="200" width="200" /></a>
-  <a class="carrusel_item" href="../images/plantas/flor_3.png" title="Partes de la flor 3" ><img src="..../images/plantas/flor_3.png" height="200" width="200" /></a>
-  <a class="carrusel_item" href="../images/plantas/flor_4.gif" title="Partes de la flor 4"><img src="..../images/plantas/flor_4.gif" height="200" width="370" /></a>
-  <a class="carrusel_item" href="../images/plantas/flor_5.jpg" title="Partes de la flor 5" ><img src="../images/plantas/flor_5.jpg" height="302" width="458" /></a>
+		<a class="carrusel_item" href="../images/plantas/flor_1.gif" title="Partes de la flor 1" ><img src="../images/plantas/flor_1.gif" height="200" width="200" /></a>
+		<a class="carrusel_item" href="../images/plantas/flor_2.jpg" title="Partes de la flor 2"><img src="../images/plantas/flor_2.jpg" height="200" width="200" /></a>
+		<a class="carrusel_item" href="../images/plantas/flor_3.png" title="Partes de la flor 3" ><img src="../images/plantas/flor_3.png" height="200" width="200" /></a>
+		<a class="carrusel_item" href="../images/plantas/flor_4.gif" title="Partes de la flor 4"><img src="../images/plantas/flor_4.gif" height="200" width="200" /></a>
+		<a class="carrusel_item" href="../images/plantas/flor_5.jpg" title="Partes de la flor 5" ><img src="../images/plantas/flor_5.jpg" height="200" width="200" /></a>
   </div>
   <script type="text/javascript">
   $(function() {
@@ -107,6 +100,19 @@ $(document).ready(function() {
     });
   });
   </script>
+			<div class="contents">
+      <h2>Partes de la Flor</h2>
+				<div class="burbujaGrande">
+		    <p>Una flor típica consta de varias partes. La parte que une la flor al tallo se denomina pedúnculo, las flores 
+		      que carecen de él se denominan sésiles. Cuando el pedúnculo sostiene a un grupo de flores, como si fuera un 
+		      ramo, a la estructura que une a cada flor con el pedúnculo se le denomina pedicelo. El pedúnculo o el pedicelo 
+		      forman una estructura terminal denominada receptáculo desde donde parten las otras estructuras de la flor. La 
+		      parte estéril de la flor tiene una función protectora formando en conjunto el periantio, es decir el conjunto de 
+		      pétalos o corola y el conjunto de sépalos o cáliz. La parte reproductora está formada por los estambres, que 
+		      constituyen la parte masculina de la flor o androceo, y el pistilo, que es la parte femenina o gineceo</p>
+				</div>
+			</div>
+
     </div>
     <div class="clear"></div>
 </div>
